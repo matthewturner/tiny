@@ -4,7 +4,8 @@
 
 1. Wire up development board according to numbers (Blank == P5)
 1. `git clone git@github.com:micronucleus/micronucleus.git`
-1. Get AVRDude https://github.com/avrdudes/avrdude/releases
+1. [Install usb driver](https://github.com/micronucleus/micronucleus/tree/master/windows_driver_installer)
+1. [Get AVRDude](https://github.com/avrdudes/avrdude/releases)
 1. `Expand-Archive ~\Downloads\avrdude-v7.2-windows-x64.zip -DestinationPath ~/development/avrdude`
 1. `cd avrdude`
 1. `cp ..\micronucleus\firmware\releases\t85_default.hex`
